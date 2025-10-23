@@ -32,6 +32,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.piccirillostudios.flutter_paypal_native'
     compileSdkVersion 31
 
     compileOptions {
